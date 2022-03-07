@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio 9 Bucles y Funciones 2</title>
+</head>
+<body>
+    <script>
+
+function media(x, y, z) {
+            var promedio = (x + y + z) / 3;
+            return promedio;
+        }
+
+        var valor1 = Number(prompt( " Ingrese primer valor: "));
+        var valor2 = Number(prompt(" Ingrese segundo valor: "));
+        var valor3 = Number(prompt(" Ingrese tercer valor: "));
+        document.write( " Los tres valores ingresados son " + valor1 + ' ' + valor2 + ' ' + valor3 +  " <br> " );
+        var valor_promedio;
+        valor_promedio = media(valor1, valor2, valor3);
+        document.write( " El promedio es : " + valor_promedio);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio 3 Bucles y funciones 2</title>
+</head>
+<body>
+    <script>
+
+    var numero=0;
+    var x = 0;
+    var y = 0;
+    var nota;
+        while (numero < 10) {
+        
+           nota= prompt("Introduce la nota")
+           if (nota >= 7){
+               x = x+1;
+               numero=numero + 1;
+           }
+           else {
+               y = y+1;
+               numero= numero + 1;
+           }
+           
+        }  
+                document.write (" -Numero de notas = "+numero)
+                document.write (" -Numero de notas mayores o igual de 7 = "+x)
+                document.write (" -Numero de notas menores a 7 = "+y)
+    </script>
+    </body>
+    </html>
